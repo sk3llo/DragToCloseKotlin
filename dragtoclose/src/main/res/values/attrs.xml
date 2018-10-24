@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DragToClose">
+
+        <attr name="draggableView" format="reference" />
+
+        <attr name="draggableContainer" format="reference" />
+
+        <attr name="finishActivity" format="boolean" />
+
+        <attr name="finishFragmentByTag" format="string" />
+
+        <attr name="finishFragmentByContainerId" format="reference" />
+
+        <attr name="dragDirection">
+            <enum name="Up" value="1"/>
+            <enum name="Down" value="2"/>
+            <enum name="UpAndDown" value="3"/>
+        </attr>
+
+        <attr name="closeOnClick" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
